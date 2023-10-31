@@ -1,0 +1,19 @@
+.drop-down-content-wide {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 12rem;
+    z-index: 20;
+}
+
+.drop-down-nav {
+    vertical-align: top;
+    display: none;
+    position: absolute;
+    flex-direction: row;
+    background-color: white;
+    width: 100%;
+    left: 0;
+    z-index: 25;
+    box-shadow: 0rem 2rem 3rem -3rem black;
+}

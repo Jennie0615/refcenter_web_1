@@ -1,0 +1,74 @@
+.series-header {
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+
+    width: 100%;
+    height: max-content;
+}
+
+.series-header-nav {
+    display: flex;
+    text-align: -webkit-auto;
+    padding: 1rem;
+}
+
+.series-header-content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    background-color: #CDCDCD;
+    color: white;
+}
+
+.series-header-message {
+    min-width: 15rem;
+    width: 60%;
+
+    padding: 3rem;
+}
+
+.series-header-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 30rem;
+    height: 17rem;
+
+    object-position: center;
+}
+
+.series-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(32rem, 1fr));
+
+    width: 100%;
+    padding: 1rem;
+
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+
+.series-section.certificates {
+    grid-template-columns: repeat(auto-fill, minmax(32rem, 1fr));
+}
+
+.series-section.technical {
+    grid-template-columns: repeat(auto-fill, minmax(26rem, 1fr));
+}
+
+.series-section.products {
+    grid-template-columns: repeat(auto-fill, minmax(24rem, 1fr));
+}
+
+.series-section.videos {
+    grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
+}
+
+.series-section.events {
+    grid-template-columns: repeat(auto-fill, minmax(32rem, 1fr));
+    grid-row: 1px solid lightgrey;
+}

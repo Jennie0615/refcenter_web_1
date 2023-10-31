@@ -1,0 +1,50 @@
+.event-option-wrapper {
+    display: block;
+    flex-direction: row;
+    align-items: center;
+
+    width: 30rem;
+    height: 10rem;
+
+    max-width: 90vw;
+    max-height: 30vw;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    background-color: none;
+
+    transition: 0.2s;
+
+    text-decoration: none;
+    color: black;
+}
+
+.event-option-text {
+    position: absolute;
+
+    text-align: -webkit-auto;
+    font-size: 1.25rem;
+}
+
+.event-option-type {
+    position: relative;
+    left: 1rem;
+    top: 1rem;
+
+    color: #18A2A8;
+}
+
+.event-option-name {
+    position: relative;
+    left: 5rem;
+    top: 2.5rem;
+}
+
+.event-option-image {
+    float: right;
+    height: 10rem;
+    max-height: 100%;
+}

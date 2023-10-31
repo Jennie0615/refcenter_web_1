@@ -1,0 +1,42 @@
+.series-option {
+    display: flex;
+    flex-direction: column;
+
+    padding: 1rem;
+
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+    width: 80vw;
+    height: 120vw;
+    max-width: 20rem;
+    max-height: 30rem;
+
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+
+    background-color: #F5F4F4;
+    transition: 0.5s;
+}
+
+.series-option:hover {
+    filter: brightness(0.9);
+}
+
+.product-option-image {
+    object-fit: cover;
+    margin: 1rem;
+    width: 70vw;
+    height: 70vw;
+    max-width: 18rem;
+    max-height: 18rem;
+}
+
+.product-option-text {
+    position: relative;
+    top: 20%;
+}

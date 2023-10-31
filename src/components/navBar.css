@@ -1,0 +1,9 @@
+.drop-down {
+    position: relative;
+    display: inline-block;
+}
+
+.drop-down-wide {
+    float: left;
+    overflow: hidden;
+}

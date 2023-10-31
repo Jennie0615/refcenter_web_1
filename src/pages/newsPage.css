@@ -1,0 +1,19 @@
+.event-item {
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+    font-size: 1.25rem;
+
+    width: 80%;
+    border-bottom: solid 1px lightgrey;
+}
+
+.event-name {
+    width: 50%;
+    text-align: -webkit-auto;
+}
+
+.event-date {
+    width: 50%;
+    text-align: -webkit-right;
+}

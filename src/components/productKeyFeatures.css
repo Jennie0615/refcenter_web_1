@@ -1,0 +1,7 @@
+.productKeyFeature {
+    display: flex;
+    flex-direction: row;
+    text-align: -webkit-auto;
+    width: 20rem;
+    padding: 1rem;
+}

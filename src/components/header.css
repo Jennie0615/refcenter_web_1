@@ -1,0 +1,9 @@
+.nav-icon {
+    cursor: pointer;
+
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    height: 1.5rem;
+    object-fit: scale-down;
+    mix-blend-mode: darken;
+}

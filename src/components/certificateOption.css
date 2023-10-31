@@ -1,0 +1,68 @@
+.certificate-option-wrapper {
+    cursor: pointer;
+
+    display: block;
+    flex-direction: row;
+    align-items: center;
+
+    width: 30rem;
+    height: 10rem;
+
+    max-width: 90vw;
+    max-height: 30vw;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    background-color: #F3F2F2;
+
+    transition: 0.2s;
+
+    text-decoration: none;
+    color: black;
+}
+
+.certificate-option-wrapper:hover {
+    background-color: #18A2A8;
+}
+
+.certificate-option-wrapper:hover .certificate-option-type {
+    color: white;
+}
+
+.certificate-option-wrapper:hover .certificate-option-name {
+    color: white;
+}
+
+.certificate-option-wrapper:hover .certificate-option-image {
+    filter:brightness(80%);
+}
+
+.certificate-option-text {
+    position: absolute;
+
+    text-align: -webkit-auto;
+    font-size: 1.25rem;
+}
+
+.certificate-option-type {
+    position: relative;
+    left: 1rem;
+    top: 1rem;
+
+    color: #18A2A8;
+}
+
+.certificate-option-name {
+    position: relative;
+    left: 5rem;
+    top: 2.5rem;
+}
+
+.certificate-option-image {
+    float: right;
+    height: 10rem;
+    max-height: 100%;
+}

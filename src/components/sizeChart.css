@@ -1,0 +1,20 @@
+.size-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.table-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.table-entry {
+    padding: 1rem;
+    width: 10rem;
+}
+
+.table-entry.label {
+    color: #18A2A8;
+    border-bottom: 1px solid lightgrey;
+}

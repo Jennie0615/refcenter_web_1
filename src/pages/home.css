@@ -1,0 +1,77 @@
+.landing-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 1rem;
+    width: max-content;
+    max-width: -webkit-fill-available;
+    color: white;
+    background-color: #B6CCC5;
+
+    text-decoration: none;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.hover-darken {
+    transition: 0.2s;
+}
+
+.hover-darken:hover {
+    filter: brightness(0.8);
+}
+
+.section-image-wrapper {
+    position: relative;
+    margin: 1rem;
+}
+
+.green-square {
+    position: absolute;
+    background-color: #B6CCC5;
+    height: 15rem;
+    width: 15rem;
+    max-width: 50%;
+    max-height: 80%;
+    right: -1rem;
+    bottom: 0rem;
+    z-index: -1;
+}
+
+.landing-scroll {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    transition:0.5s;
+}
+
+.landing-scroll.small {
+    max-height: 200vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll-background {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+
+.scroll-title {
+    position: absolute;
+    height: 100%;
+
+    object-fit: scale-down;
+}
+
+.scroll-item {
+    position: absolute;
+    height: 100%;
+
+    object-fit: scale-down;
+}

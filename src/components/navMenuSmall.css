@@ -1,0 +1,40 @@
+.drop-down-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 10rem;
+  z-index: 20;
+}
+
+.drop-down-content.left {
+  left: 0;
+  top: 6rem;
+}
+
+.drop-down-content.wide {
+  width: 20rem;
+  max-width: 100%;
+}
+
+.nav-menu-small-item {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  text-align: -webkit-auto;
+
+  margin: 1.5rem 0.5rem 1.5rem 0.5rem;
+
+  cursor: pointer;
+
+  text-decoration: none;
+  color: inherit;
+  font-size: 1rem;
+
+}
+
+@media screen and (min-width: 65rem){
+  .small-screen {
+    display: none;
+  }
+}

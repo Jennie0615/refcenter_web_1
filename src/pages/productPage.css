@@ -1,0 +1,173 @@
+.product-header-nav {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: -webkit-auto;
+}
+
+.content-product {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: -webkit-fill-available;
+    justify-content: space-evenly;
+    margin: 1rem;
+}
+
+.product-image {
+    display: flex;
+    flex-direction: column;
+
+    padding: 3rem;
+}
+
+.product-image-selected {
+    width: 80vw;
+    height: 50vw;
+    max-height: 25rem;
+    max-width: 40rem;
+
+    margin: 1rem;
+
+    background-color: lightgrey;
+}
+
+.product-image-options {
+    display: flex;
+    flex-direction: row;
+}
+
+.product-image-selection {
+    cursor: pointer;
+    filter: brightness(95%);
+    transition: 0.3s;
+
+    height: 10vw;
+    width: 10vw;
+    max-height: 5rem;
+    max-width: 5rem;
+
+    margin : 1rem;
+
+    background-color: lightgrey;
+}
+
+.product-image-selection:hover {
+    transform: scale(1.1);
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+
+    padding: 3rem;
+}
+
+.product-name {
+    margin: 1rem;
+    font-size: 2rem;
+
+    text-align: -webkit-auto;
+}
+
+.product-tags {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-tag-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.product-tag {
+    height: 3rem;
+    width: 3rem;
+
+    margin: 1rem;
+
+    border-radius: 10em;
+    background-color: lightgrey;
+}
+
+.product-tag-label {
+    padding: 1rem;
+    width: 6rem;
+    font-size: 1.2rem;
+    text-align: -webkit-auto;
+}
+
+.product-tag-label.info {
+    color: #18A2A8;
+}
+
+.request-button-icon {
+    object-fit: scale-down;
+    padding: 0.5rem;
+    height: 2rem;
+}
+
+.request-button {
+    cursor: pointer;
+    display: flex;
+    height: 3rem;
+    width: 15rem;
+    max-width: 90vw;
+    margin: 1rem;
+
+    background-color: #18A2A8;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    font-size: 1.25rem;
+}
+
+.product-specifications {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-specifications-options {
+    display: flex;
+    flex-direction: row;
+
+    border-top: solid 1px lightgrey;
+    border-bottom: solid 1px lightgrey;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.product-specifications-option {
+    cursor: pointer;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    width: 7rem;
+}
+
+.product-specifications-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    padding: 1rem;
+    max-height: 30rem;
+}
+
+@media screen and (max-width: 50rem) {
+    .product-specifications-content {
+        max-height: none;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 80rem) {
+    .content-product {
+        width: min-content;
+        justify-content: flex-start;
+    }
+}

@@ -1,0 +1,21 @@
+.specification-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.specification-type {
+    display: flex;
+    flex-direction: row;
+    width: 10rem;
+
+    font-weight: bold;
+    text-align: -webkit-auto;
+
+    padding: 1rem;
+}
+
+.specification-info {
+    width: 10rem;
+    text-align: -webkit-auto;
+    padding: 1rem;
+}
