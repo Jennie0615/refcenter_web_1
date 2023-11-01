@@ -16,7 +16,7 @@ import tranquilIImage from '../resources/images/tranquil-I/1.JPG';
 import tranquilSImage from '../resources/images/tranquil-S/1.jpg';
 import tranquilDImage from '../resources/images/tranquil-D/1.jpg';
 import tranquilXImage from '../resources/images/tranquil-X/1.jpg';
-import tranquilCImage from '../resources/images/tranquil-C/1.png';
+import tranquilCImage from '../resources/images/tranquil-C/1.jpg';
 import muteCornerImage from '../resources/images/mute corner/1.jpg';
 import pvcReinforcedImage from '../resources/images/pvc reinforced pipe/1.jpg';
 import transparentCondensationImage from '../resources/images/transparent condensation pipe/1.jpg';
