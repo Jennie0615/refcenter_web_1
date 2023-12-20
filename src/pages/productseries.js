@@ -131,7 +131,7 @@ const ProductSeries = (props) => {
 
     const productSeries = ['Mute Series', 'Tranquil Series', 'Tank Series', 'Box Series'];
 
-    const boxSeries = ['slim box', 'mini box', 'maxi box', 'heart pump', 'easy box'];
+    const boxSeries = ['slim box', 'mini box', 'maxi box', 'heart box', 'easy box'];
     const muteSeries = ['mute box 20L', 'mute box 40L', 'mute tank', 'mute wedge', 'mute corner'];
     const tankSeries = ['tank pump l', 'tank pump v'];
     const tranquilSeries = ['tranquil-I', 'tranquil-S', 'tranquil-X', 'tranquil-D', 'tranquil-C'];
@@ -167,7 +167,7 @@ const ProductSeries = (props) => {
         'slim box': 'Slim Box',
         'mini box': 'Mini Box',
         'maxi box': 'MaxiBox',
-        'heart pump': 'Heart Pump',
+        'heart box': 'Heart Box',
         'easy box': 'EasyBox',
         'mute box 20L': 'Mute Box 20L',
         'mute box 40L': 'Mute Box 40L',
@@ -255,7 +255,7 @@ const ProductSeries = (props) => {
         'slim box': 'Slim Box Image',
         'mini box': 'Mini Box Image',
         'maxi box': 'MaxiBox Image',
-        'heart pump': 'Heart Pump Image',
+        'heart box': 'Heart Box Image',
         'easy box': 'Easy Box Image',
         'mute box 20L': 'Mute Box 20L Image',
         'mute box 40L': 'Mute Box 40L Image',

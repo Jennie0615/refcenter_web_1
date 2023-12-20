@@ -164,19 +164,19 @@ function App() {
           <Route path='/products/condensate pumps/box series/slim box/EN' element={<ProductPage language={'EN'} product='Condensate Pumps' productLabel='Condensate Pumps' series='Box Series' seriesLabel='Box Series' item='Slim Box' />} />
           <Route path='/products/condensate pumps/box series/mini box/EN' element={<ProductPage language={'EN'} product='Condensate Pumps' productLabel='Condensate Pumps' series='Box Series' seriesLabel='Box Series' item='Mini Box' />} />
           <Route path='/products/condensate pumps/box series/maxi box/EN' element={<ProductPage language={'EN'} product='Condensate Pumps' productLabel='Condensate Pumps' series='Box Series' seriesLabel='Box Series' item='MaxiBox' />} />
-          <Route path='/products/condensate pumps/box series/heart pump/EN' element={<ProductPage language={'EN'} product='Condensate Pumps' productLabel='Condensate Pumps' series='Box Series' seriesLabel='Box Series' item='Heart Pump' />} />
+          <Route path='/products/condensate pumps/box series/heart box/EN' element={<ProductPage language={'EN'} product='Condensate Pumps' productLabel='Condensate Pumps' series='Box Series' seriesLabel='Box Series' item='Heart Box' />} />
           <Route path='/products/condensate pumps/box series/easy box/EN' element={<ProductPage language={'EN'} product='Condensate Pumps' productLabel='Condensate Pumps' series='Box Series' seriesLabel='Box Series' item='EasyBox' />} />
 
           <Route path='/products/condensate pumps/box series/slim box/ES' element={<ProductPage language={'ES'} product='Condensate Pumps' productLabel='Bombas de Condensado' series='Box Series' seriesLabel='Serie Box' item='Slim Box' />} />
           <Route path='/products/condensate pumps/box series/mini box/ES' element={<ProductPage language={'ES'} product='Condensate Pumps' productLabel='Bombas de Condensado' series='Box Series' seriesLabel='Serie Box' item='Mini Box' />} />
           <Route path='/products/condensate pumps/box series/maxi box/ES' element={<ProductPage language={'ES'} product='Condensate Pumps' productLabel='Bombas de Condensado' series='Box Series' seriesLabel='Serie Box' item='MaxiBox' />} />
-          <Route path='/products/condensate pumps/box series/heart pump/ES' element={<ProductPage language={'ES'} product='Condensate Pumps' productLabel='Bombas de Condensado' series='Box Series' seriesLabel='Serie Box' item='Heart Pump' />} />
+          <Route path='/products/condensate pumps/box series/heart box/ES' element={<ProductPage language={'ES'} product='Condensate Pumps' productLabel='Bombas de Condensado' series='Box Series' seriesLabel='Serie Box' item='Heart Box' />} />
           <Route path='/products/condensate pumps/box series/easy box/ES' element={<ProductPage language={'ES'} product='Condensate Pumps' productLabel='Bombas de Condensado' series='Box Series' seriesLabel='Serie Box' item='EasyBox' />} />
 
           <Route path='/products/condensate pumps/box series/slim box/RU' element={<ProductPage language={'RU'} product='Condensate Pumps' productLabel='Конденсатные насосы' series='Box Series' seriesLabel='Серия Box' item='Slim Box' />} />
           <Route path='/products/condensate pumps/box series/mini box/RU' element={<ProductPage language={'RU'} product='Condensate Pumps' productLabel='Конденсатные насосы' series='Box Series' seriesLabel='Серия Box' item='Mini Box' />} />
           <Route path='/products/condensate pumps/box series/maxi box/RU' element={<ProductPage language={'RU'} product='Condensate Pumps' productLabel='Конденсатные насосы' series='Box Series' seriesLabel='Серия Box' item='MaxiBox' />} />
-          <Route path='/products/condensate pumps/box series/heart pump/RU' element={<ProductPage language={'RU'} product='Condensate Pumps' productLabel='Конденсатные насосы' series='Box Series' seriesLabel='Серия Box' item='Heart Pump' />} />
+          <Route path='/products/condensate pumps/box series/heart box/RU' element={<ProductPage language={'RU'} product='Condensate Pumps' productLabel='Конденсатные насосы' series='Box Series' seriesLabel='Серия Box' item='Heart Box' />} />
           <Route path='/products/condensate pumps/box series/easy box/RU' element={<ProductPage language={'RU'} product='Condensate Pumps' productLabel='Конденсатные насосы' series='Box Series' seriesLabel='Серия Box' item='EasyBox' />} />
 
 

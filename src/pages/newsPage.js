@@ -80,12 +80,12 @@ const NewsPage = (props) => {
                             'padding': `${textScale * 3}rem`
                         }}
                     >
-                        <div className='event-name'>2023 C&R -- Madrid</div>
+                        <div className='event-name'>2024 MCE -- Milano</div>
                         <div className='event-date'>
                             {{
-                                'EN': 'Nov 14th - 17th',
-                                'ES': '14 al 17 de Nov',
-                                'RU': '14-17 ноября'
+                                'EN': 'Mar 12th - 15th',
+                                'ES': '12 al 15 de Mar',
+                                'RU': '12-15 ноября'
                             }[props.language]}
                         </div>
                     </div>

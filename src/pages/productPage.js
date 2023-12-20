@@ -252,7 +252,7 @@ function ProductPage(props) {
 
     const images =
         props.item === 'EasyBox' ? importAll(require.context(`../resources/images/easy box/`, false, /\.(png|jpe?g|svg)$/)) :
-            props.item === 'Heart Pump' ? importAll(require.context(`../resources/images/heart pump/`, false, /\.(png|jpe?g|svg)$/)) :
+            props.item === 'Heart Box' ? importAll(require.context(`../resources/images/heart box/`, false, /\.(png|jpe?g|svg)$/)) :
                 props.item === 'MaxiBox' ? importAll(require.context(`../resources/images/maxi box/`, false, /\.(png|jpe?g|svg)$/)) :
                     props.item === 'Mini Box' ? importAll(require.context(`../resources/images/mini box/`, false, /\.(png|jpe?g|svg)$/)) :
                         props.item === 'Mute Box 20L' ? importAll(require.context(`../resources/images/mute box 20L/`, false, /\.(png|jpe?g|svg)$/)) :

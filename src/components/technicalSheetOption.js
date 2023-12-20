@@ -4,7 +4,7 @@ import { fontSizes } from '../constants.js';
 import productSheets from '../resources/productSheets';
 
 import easyBoxImage from '../resources/images/easy box/1.jpg';
-import heartPumpImage from '../resources/images/heart pump/1.JPG';
+import heartBoxImage from '../resources/images/heart box/1.JPG';
 import maxiBoxImage from '../resources/images/maxi box/1.jpg';
 import miniBoxImage from '../resources/images/mini box/1.jpg';
 import muteBox20LImage from '../resources/images/mute box 20L/1.jpg';
@@ -32,7 +32,7 @@ const TechnicalSheetOption = (props) => {
         'Slim Box': slimBoxImage,
         'Mini Box': miniBoxImage,
         'MaxiBox': maxiBoxImage,
-        'Heart Pump': heartPumpImage,
+        'Heart Box': heartBoxImage,
         'EasyBox': easyBoxImage,
         'Tank Pump-L': tankPumpLImage,
         'Tank Pump-V': tankPumpVImage,
